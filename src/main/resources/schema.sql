@@ -1,1 +1,2 @@
 create table product (id varchar, name varchar, description varchar, price numeric);
+create table users (id varchar, username varchar, password varchar, roles varchar, firstname varchar, lastname varchar, email varchar);
