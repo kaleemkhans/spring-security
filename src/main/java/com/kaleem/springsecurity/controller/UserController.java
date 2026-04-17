@@ -31,4 +31,8 @@ public class UserController {
         return userService.getUser(id);
     }
 
+    @PostMapping("/sessions")
+    public String login(@RequestBody User user) {
+        return userService.login(user);
+    }
 }
